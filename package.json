@@ -1,0 +1,21 @@
+{
+  "name": "vidyarthi-mitra",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace=frontend run dev",
+    "dev:backend": "npm --workspace=backend run dev",
+    "build:frontend": "npm --workspace=frontend run build",
+    "start:backend": "npm --workspace=backend run start",
+    "seed:backend": "npm --workspace=backend run seed"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.1",
+    "twilio": "^6.0.0"
+  }
+}
